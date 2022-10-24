@@ -1,0 +1,96 @@
+1/ run
+2/ def spam():
+  """Prints 'Eggs!'"""
+  print "Eggs!"
+
+# Define the spam function above this line.
+spam()
+
+3/square(10)
+
+4/def power(base, exponent):  # Add your parameters here!
+  result = base ** exponent
+  print "%d to the power of %d is %d." % (base, exponent, result)
+
+power(37, 4)  # Add your arguments here!
+
+5/def one_good_turn(n):
+  return n + 1
+    
+def deserves_another(n):
+  return one_good_turn(n) + 2
+
+6/def cube(number):
+
+  return number**3
+
+def by_three(number):
+  if number % 3 == 0 :
+    return cube(number)
+  else :
+    return False
+
+7/ print sqrt(25)
+
+8/ import math
+print math.sqrt(25)
+
+9/from math import sqrt
+
+10/from math import *
+
+11/import math # Imports the math module
+everything = dir(math) # Sets everything to a list of things from math
+print everything # Prints 'em all!
+
+12/def biggest_number(*args):
+  print max(args)
+  return max(args)
+    
+def smallest_number(*args):
+  print min(args)
+  return min(args)
+
+def distance_from_zero(arg):
+  print abs(arg)
+  return abs(arg)
+
+biggest_number(-10, -5, 5, 10)
+smallest_number(-10, -5, 5, 10)
+distance_from_zero(-10)
+
+13/maximum = max(5,8,9)
+
+print maximum
+14/
+minimum = min(1,2,3)
+
+print minimum
+
+15/absolute = abs(-42)
+
+print absolute
+
+16/print type(4)
+print type(4.2)
+print type ("test")
+
+17/def shut_down(s):
+  if s == "yes":
+    return "shutting down"
+  elif s == "no":
+    return "shutdown aborted"
+  else:
+    return "Sorry"
+
+18/from math import sqrt
+
+print math.sqrt(13689)
+
+19/def distance_from_zero(arg):
+
+  if type(arg) == int or type(arg)== float:
+    return abs(arg)
+  else:
+      return "Nope"
+
