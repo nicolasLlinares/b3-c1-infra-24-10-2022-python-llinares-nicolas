@@ -1,0 +1,102 @@
+1/zoo_animals = ["pangolin", "cassowary", "sloth","dog" ];
+
+2/print numbers[1] + numbers[3]
+
+3/zoo_animals[3] = "dog" 
+
+4/suitcase = [] 
+suitcase.append("sunglasses")
+
+# Your code here!
+suitcase.append("shirt")
+suitcase.append("pull")
+suitcase.append("brush")
+
+
+
+list_length = len(suitcase) # Set this to the length of suitcase
+
+print "There are %d items in the suitcase." % (list_length)
+print suitcase
+
+5/suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
+
+# The first and second items (index zero and one)
+first = suitcase[0:2]
+
+# Third and fourth items (index two and three)
+middle = ["passport", "laptop"]
+
+# The last two items (index four and five)
+last =  ["suit", "shoes"]
+
+6/animals = "catdogfrog"
+
+# The first three characters of animals
+cat = animals[:3]
+
+# The fourth through sixth characters
+dog = animals[3:6]
+
+# From the seventh character to the end
+frog = animals[6:10]
+
+7/animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
+duck_index = animals.index("duck")# Use index() to find "duck"
+print(duck_index)
+# Your code here!
+animals.insert(duck_index, "cobra")
+
+print animals # Observe what prints after the insert operation
+
+8/my_list = [1,9,3,8,5,7]
+
+for number in my_list:
+  print(number * 2)
+ 
+9/start_list = [5, 3, 1, 2, 4]
+square_list = []
+
+for number in start_list:
+  square_list.append(number ** 2)
+
+square_list.sort()
+print square_list
+
+10/# Assigning a dictionary with three key-value pairs to residents:
+residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
+
+print residents['Puffin'] # Prints Puffin's room number
+
+# Your code here!
+print residents['Sloth']
+print residents['Burmese Python']
+
+11/menu = {} # Empty dictionary
+menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
+print menu['Chicken Alfredo']
+
+# Your code here: Add some dish-price pairs to menu!
+menu['macdo'] = 10.50
+menu['KFC'] = 10
+menu ['BK'] = 9.50
+
+print "There are " + str(len(menu)) + " items on the menu."
+print menu
+
+12/# Your code here!
+del zoo_animals['Sloth']
+del zoo_animals['Bengal Tiger']
+zoo_animals['Rockhopper Penguin'] = 'other Artic Exhibit'
+
+
+
+print zoo_animals
+
+13/backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
+backpack.remove('dagger')
+
+14/inventory['pocket'] = ['seashell', 'strange berry', 'lint']
+inventory['backpack'].sort()
+inventory['backpack'].remove('dagger')
+inventory['gold'] = inventory['gold'] + 50
